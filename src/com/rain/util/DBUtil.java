@@ -12,7 +12,7 @@ public class DBUtil {
 	 */
 	public static String username = "root";
 	public static String password = "root";
-	public static String url = "jdbc:mysql://localhost:3306/books";
+	public static String url = "jdbc:mysql://localhost:3306/books?useUnicode=true&characterEncoding=utf8";
 	
 	static{
 		try {
